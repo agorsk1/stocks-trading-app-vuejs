@@ -1,6 +1,13 @@
-# vue-cli
+# A Stock Trading Simulator
 
-> A Vue.js project
+> A Vue.js app
+
+## Before building
+
+```
+create nosql db E.g. goolge firebase and replace its url 
+in store.js loadDay action and saveDay method in HeaderOptions.vue
+```
 
 ## Build Setup
 
