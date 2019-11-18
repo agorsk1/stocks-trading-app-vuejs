@@ -96,7 +96,6 @@ export const store = new Vuex.Store({
             Vue.http.get('data.json')
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data)
                     if (data) {
                         const funds = data.funds;
                         const stocksBought = data.stocksBought;
